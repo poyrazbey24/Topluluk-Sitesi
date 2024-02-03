@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+::-webkit-scrollbar{
+    background-color: #2b2f444b;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #2b2f44;
+    border-radius: 40px;
+}
+
+
+.navbar {
+    background-color: #2b2f448a; /* Navbar arka plan rengi */
+    border-radius: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 70%;
+    text-align: center;
+}
+
+  .navbar-nav {
+    margin: auto; /* Linklerin ortalanması */
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 100px; /* Her link arasındaki boşluk */
+  }
+
+  .navbar-nav .nav-link {
+    color: white !important; /* Linklerin rengini beyaz yapma */
+  }
+
+
+
+.nav-link{
+    color: #fff;
+    font-weight: 600;
+    transition-duration: 0.4s;
+}
+
+.nav-link:hover{
+    transition-duration: 0.4s;
+    color: #5C469C;
+}
+
+.navbar-toggler {
+    color: white; /* Toggler ikonunun arka plan rengi */
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+
+.navbar-toggler-icon{
+    color: #000;
+}
+
+ozel{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.blur{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px #1d4ed8;
+    z-index: -100;
+}
+
+.underlined-heading {
+    border-bottom: 2px solid #fff;
+    width: 20%;
+}
+
+.bosluk{
+    margin-top: 15%;
+}
